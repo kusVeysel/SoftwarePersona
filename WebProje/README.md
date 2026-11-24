@@ -1,25 +1,6 @@
 # İşTakip Pro
 
-## Bağlantılar
-
-- [GitHub deposu](https://github.com/kusVeysel/WebProje)
-- [React belgeleri](https://react.dev/)
-- [Vite belgeleri](https://vite.dev/)
-- [JavaScript rehberi (MDN)](https://developer.mozilla.org/docs/Web/JavaScript)
-- [CSS rehberi (MDN)](https://developer.mozilla.org/docs/Web/CSS)
-- [Web Storage API (MDN)](https://developer.mozilla.org/docs/Web/API/Web_Storage_API)
-- [Vercel dağıtım belgeleri](https://vercel.com/docs)
-- [Netlify dağıtım belgeleri](https://docs.netlify.com/)
-
-## Kullanılan teknolojiler
-
-| Teknoloji | Kullanım |
-| --- | --- |
-| [React 19](https://react.dev/) | Arayüz ve bileşenler |
-| [Vite 8](https://vite.dev/) | Geliştirme sunucusu ve üretim derlemesi |
-| JavaScript (ES Modules) | Uygulama mantığı ve veri işlemleri |
-| CSS | Yerleşim, tema, animasyonlar ve responsive tasarım |
-| [HTML Web Storage](https://developer.mozilla.org/docs/Web/API/Window/localStorage) | Proje kayıtlarını tarayıcıda saklama |
+İşTakip Pro, bağımsız çalışanlar ve küçük ekipler için proje, müşteri ve bütçe takibini tek bir arayüzde sunan web uygulamasıdır. Projeleri durumlarına göre yönetebilir, tamamlanma ve gelir özetlerini görüntüleyebilir; açık veya koyu temada çalışabilirsiniz. Proje kayıtları tarayıcıda saklandığı için uygulama sunucuya bağlı olmadan çalışır.
 
 ## Özellikler
 
@@ -32,6 +13,17 @@
 - Okundu durumlu bildirimler.
 - `IntersectionObserver` ile görünür alana girerken oynayan kutu animasyonları. İşletim sisteminde azaltılmış hareket seçiliyse animasyonlar kapalıdır.
 - Mobil ekranda açılır sol menü.
+
+## Kullanılan teknolojiler
+
+| Teknoloji | Kullanım |
+| --- | --- |
+| [React 19](https://react.dev/) | Arayüz ve bileşenler |
+| [Vite 8](https://vite.dev/) | Geliştirme sunucusu ve üretim derlemesi |
+| JavaScript (ES Modules) | Uygulama mantığı ve veri işlemleri |
+| CSS | Yerleşim, tema, animasyonlar ve responsive tasarım |
+| [HTML Web Storage](https://developer.mozilla.org/docs/Web/API/Window/localStorage) | Proje kayıtlarını tarayıcıda saklama |
+| ESLint | Kod kalitesi denetimi |
 
 ## Klasör ve dosya yapısı
 
@@ -83,6 +75,15 @@ npm run dev
 ```
 
 Geliştirme sunucusu başladığında terminalde gösterilen yerel adresi tarayıcıda açın (varsayılan: `http://localhost:5173`).
+
+## Yapay zeka kullanımı
+
+Genel proje sayfasının kemik yapısının oluşmasında kullanılmıştır. Yaptığı değişikler teker teker incelenmiş **basit işlerde**(buton rengi değiştirme vs.) **kesinlikle** kullanılmamıştır.
+Yapay zekadan dokümantasyon aşamasında bu README'nin taslağını oluşturmak ve proje açıklamasını düzenlemek için destek alınmıştır. İçerik, uygulamanın mevcut özellikleri ve kaynak koduyla karşılaştırılarak gözden geçirilmiştir. 
+
+- Gemini
+- Copilot
+    kullanılmıştır
 
 ## Npm komutları
 
